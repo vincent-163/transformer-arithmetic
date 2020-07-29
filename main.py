@@ -20,7 +20,7 @@ class Model(pl.LightningModule):
             n_ctx=1024,
             n_state=2048,
             n_head=8,
-            dropout=0.3
+            dropout=0.9
         )
 
     def forward(self, x):
