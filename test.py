@@ -3,6 +3,7 @@ import torch
 import torch.nn.functional as F
 
 m = main.Model.load_from_checkpoint('epoch=98.ckpt')
+m.eval()
 while True:
     expr = input("Prompt: ")
     curi = 0
