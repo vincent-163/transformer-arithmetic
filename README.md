@@ -1,6 +1,8 @@
 # Performing Arithmetic with Transformer
 
-This project demonstrates the possibility of training a generic neural model to perform very complex arithmetic operations, without designing the model architecture explicitly for the task. Our model is able to compute *5-digit by 5-digit decimal multiplication* at 100% accuracy. In particular, we train the GPT-2 model on a large number of generated expressions that express the process of computing multiplication step by step.
+This project demonstrates the possibility of training a generic neural model to perform very complex arithmetic operations, without designing the model architecture explicitly for the task. Our model is able to compute *5-digit by 5-digit decimal multiplication* at 100% accuracy. In particular, we train the GPT-2 model on a large number of generated expressions that express the process of computing multiplication step by step. Provide `87708*15192` and it should give `4192581956`.
+
+See [How does it work](#how-does-it-work) section for explanation of the inner mechanics.
 
 ## How to train
 
