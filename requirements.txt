@@ -10,7 +10,7 @@ idna==2.10
 Markdown==3.2.2
 numpy==1.19.1
 oauthlib==3.1.0
-protobuf==3.12.2
+protobuf==3.18.3
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pytorch-lightning==0.8.5
